@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        button {
+            font-size: 24px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Enter Your Information</h1>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <br><br>
+        <label>Role:</label>
+        <input type="radio" id="student" name="role" value="student" required>
+        <label for="student">Student</label>
+        <input type="radio" id="instructor" name="role" value="instructor" required>
+        <label for="instructor">Instructor</label>
+        <br><br>
+        <button type="submit">Enter</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
